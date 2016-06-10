@@ -7,6 +7,7 @@ SITENAME = u'J U L I U S R E A D E'
 SITEURL = 'juliusreade.me'
 
 PATH = 'content'
+STATIC_PATHS = ['images']
 
 TIMEZONE = 'Australia/Melbourne'
 
