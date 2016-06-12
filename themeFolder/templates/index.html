@@ -1,6 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
+{% extends "base.html" %}
+{% block head %}
     <meta name="tags" content="Homepage" />
     <meta name="date" content="2016-06-09 22:28" />
     <meta name="modified" content="2016-06-10 20:14" />
@@ -12,11 +11,9 @@
     <link rel="stylesheet" href="../static/css/style.css">
 
 
-    </head>
-    <body>
-        <header id="banner">
-            <h1><a href="/">J U L I U S R E A D E <strong></strong></a></h1>
-        </header>   
+{% endblock head %}
+
+{% block content %}
 	<div id="main_container">
 		<div id="main_navigation">
 			<h1>J U L I R S E A D E </h1>
@@ -44,6 +41,7 @@
 		</div>
 	</div>
 
-	
-    </body>
+{% endblock %}
+
+</body>
 </html>

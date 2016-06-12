@@ -4,10 +4,13 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Julius Reade'
 SITENAME = u'J U L I U S R E A D E'
+
+GITHUB_URL = 'http://github.com/dottjt'
 SITEURL = 'juliusreade.me'
+THEME = u"themeFolder"
 
 PATH = 'content'
-STATIC_PATHS = ['images']
+STATIC_PATHS = ['images, css, js']
 
 TIMEZONE = 'Australia/Melbourne'
 
