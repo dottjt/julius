@@ -70,7 +70,7 @@ body {
 }
 
 .main-title, .boxes, .year, .main, .main-side {
-	border: 1px solid;
+	/*     border: 1px solid;		*/
 }
 
 .main-title {
