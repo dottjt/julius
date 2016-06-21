@@ -50,43 +50,81 @@ table {
 }
 
 /*
+
+
+
 	It begins 
+
+
 	
 */
 
 body {
 	width: 100%;
-	background: black;
-	color: white;
 	font-family: helvetica;
 }
 
 #container {
-	width: 100%;
+	width: 90%;
+	margin: 0 auto;
 }
 
-.title, .boxes {
+.title, .boxes, .year {
 	border: 1px solid;
 }
 
-.title {
-	float: right;
-}
-
-.boxes {
-	margin-bottom: 2rem;
-	margin-left: auto;
-	margin-right: auto;
-	width: 80%;
-	height: 70vh;
-}
-
-.b1 {
-	height: 20vh;
+.main-title {
+	margin-top: 10rem;
+	font-size: 12rem;
+	text-align: center;	
+	line-height: 20rem;
+	margin-top: 10rem;
 }
 
 .main {
-	
+	padding: 2rem;
+	margin-top: 10rem;
+	font-size: 1.2rem;
+	width: 40rem;	
+	margin-top: 10rem;	
+}
+
+.main p {
+	line-height: 2rem;
+}
+
+.tldr {
+	width: 30rem;
+	margin: 0 auto;
+	padding-bottom: 1rem;
+}
+
+.tldr li {
+	padding-bottom: 10px;
+}
+
+.boxes {
+	width: 90vw;
+
+}
+
+.year {
+	font-size: 10rem;
+	text-align: center;
+	margin-bottom: 5rem;
+}
+
+.intro {
+	width: 40rem;
+	font-size: 1.4rem;
+	padding: 2rem;
+	margin: 0 auto;
+}
+
+.intro p {
+	line-height: 2rem;
+	text-align: justify;
+
 }
 
 li {
@@ -95,7 +133,6 @@ li {
 
 h1, h2 {
 	padding-bottom: 3rem;
-	color: blue;
 }
 
 h1 {
