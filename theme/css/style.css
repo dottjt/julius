@@ -246,12 +246,8 @@ a:hover + #hidden {
 		display: hidden
 	}
 
-	.r {
+	.r-contain {
 		display: hidden;
-	}
-
-	#hidden {
-		opacity: 1;
 	}
 }
 

@@ -69,7 +69,8 @@ body {
 	margin: 0 auto;
 }
 
-.title, .boxes, .year {
+.main-title, .boxes, .year, .main, .main-side {
+	border: 1px solid;
 }
 
 .main-title {
@@ -81,34 +82,18 @@ body {
 
 .main {
 	padding: 2rem;
-	font-size: 1.2rem;
 	width: 40rem;	
+	float: left;
 }
 
 .main p {
 	line-height: 2rem;
 }
 
-.tldr {
-	width: 30rem;
-	margin: 0 auto;
-	padding: 2rem;
-}
-
-.tldr li {
-	padding-bottom: 10px;
-}
-
-.boxes {
-	width: 90vw;
-	font-family: arial;
-
-}
-
-.year {
-	font-size: 10rem;
-	text-align: center;
-	font-family: georgia;
+.main-side {
+	float: left;
+	padding: 2rem 0 2rem 2rem;
+	width: 20rem;
 }
 
 .intro {
@@ -123,6 +108,33 @@ body {
 	text-align: justify;
 
 }
+
+
+.tldr {
+	width: 30rem;
+	margin: 0 auto;
+	padding: 2rem;
+}
+
+.tldr li {
+	padding-bottom: 10px;
+}
+
+.boxes {
+	font-size: 1.2rem;
+
+	width: 90vw;
+	font-family: arial;
+
+}
+
+.year {
+	font-size: 10rem;
+	text-align: center;
+	font-family: georgia;
+	clear: both;
+}
+
 
 li {
 	padding-bottom: 1rem;
@@ -148,6 +160,10 @@ p {
 
 .grid {
 	width: 10rem;
+}
+
+.b-clear {
+	clear: both;
 }
 
 /*
