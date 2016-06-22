@@ -96,6 +96,28 @@ body {
 	width: 20rem;
 }
 
+.init-contain, .init-contain-select {
+	border: 1px solid;
+}
+
+.init-contain {
+	margin: auto;
+	width: 70%;
+	height: 30rem;
+	
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.init-contain-select {
+	width: 33%;
+}
+
+.init-contain-select h1{
+	text-align: center;
+}
+
 .intro {
 	width: 40rem;
 	font-size: 1.4rem;

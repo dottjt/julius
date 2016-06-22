@@ -58,7 +58,7 @@ table {
 */
 
 
-.contain, .year, .item {
+.contain, .item {
 	border: 1px solid;
 }
 
@@ -68,14 +68,14 @@ table {
 
 .item {
 	height: 1em;
-	border-radius: 4px;
+	border-radius: 10px;
 	position: relative;
 }
 
 .year {
-	display: inline-block;
+	float: left;
 	height: 1em;
-	text-align: center;
+	padding-top: 0.5rem;
 }
 
 .sucks {
@@ -108,3 +108,11 @@ table {
 	background-color: pink;
 }
 
+.uni {
+	background-color: magenta;
+}
+
+.code {
+	background-color: lightblue;
+
+}

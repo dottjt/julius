@@ -140,7 +140,6 @@ DOING ALL SORTS OF THINGS.
 	RAINBOW ENDS
 */
 
-
 body {
 	font-family: helvetica;
 }
@@ -167,6 +166,10 @@ h1 { /* name */
 	font-weight: bold;
 	font-size: 1.4rem;
 	padding-bottom: 1rem;
+}
+
+.b {
+	width: 100%;
 }
 
 #intro {
@@ -249,6 +252,8 @@ a:hover + #hidden {
 		display: hidden;
 	}
 }
+
+
 
 
 /*
