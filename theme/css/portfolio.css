@@ -125,10 +125,10 @@ body {
 }
 
 .intro p {
-	line-height: 2.1rem;
+	line-height: 2.38rem;
 	padding: 0.8em;
 	text-align: justify;
-	letter-spacing: 0.05em;
+	letter-spacing: 0.02em;
 }
 
 
@@ -202,6 +202,12 @@ a:hover {
 	background-color: #00FFFF;
 	color: white;
 }
+
+.o {
+	background-color: #FF7F00;
+	color: white;
+}
+
 
 /*
 
