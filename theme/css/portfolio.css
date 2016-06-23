@@ -198,7 +198,7 @@ a:hover {
 	clear: both;
 }
 
-.y {
+.b {
 	background-color: #00FFFF;
 	color: white;
 }
@@ -221,8 +221,13 @@ a:hover {
 .g {
 	background-color: #22FF8D;
 	color: white;
-
 }
+
+.pur {
+	background-color: #8C2CFF;
+	color: white;
+}
+
 
 /*
 
