@@ -33,7 +33,6 @@ body {
 	line-height: 1;
 }
 ol, ul {
-	list-style: none;
 }
 blockquote, q {
 	quotes: none;
@@ -120,15 +119,16 @@ body {
 
 .intro {
 	width: 40rem;
-	font-size: 1.4rem;
+	font-size: 1.5rem;
 	padding: 2rem;
 	margin: 0 auto;
 }
 
 .intro p {
-	line-height: 2rem;
+	line-height: 2.1rem;
+	padding: 0.8em;
 	text-align: justify;
-
+	letter-spacing: 0.05em;
 }
 
 
@@ -155,6 +155,7 @@ body {
 	text-align: center;
 	font-family: georgia;
 	clear: both;
+	margin-bottom: 0.2em;
 }
 
 
@@ -177,7 +178,16 @@ h2 {
 p {
 	line-height: 1.4rem;
 	padding-bottom: 1.2rem;
+}
 
+a {
+	background-color: magenta;
+	text-decoration: none;
+	color: white;
+}
+
+a:hover {
+	background-color: white;
 }
 
 .grid {
@@ -186,6 +196,11 @@ p {
 
 .b-clear {
 	clear: both;
+}
+
+.y {
+	background-color: #00FFFF;
+	color: white;
 }
 
 /*
