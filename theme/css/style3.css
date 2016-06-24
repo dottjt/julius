@@ -80,7 +80,7 @@ h2 {
 }
 
 .projects {
-	line-height: 1.6em;
+	line-height: 2em;
 }
 
 a {
@@ -103,7 +103,7 @@ a:hover {
 
 body {
 	width: 100%;
-	font-family: arial;
+	font-family: helvetica;
 	font-size: 16px;
 }
 
@@ -187,7 +187,6 @@ body {
 	padding-bottom: 1.2rem;
 
 }
-
 
 
 /****************************/
@@ -293,7 +292,13 @@ body {
 	}
 
 	#container {
+
 	margin: 1.4em;
+	
+	}
+
+	.top-h2 {
+		margin-top: 2em;
 	}
 
 
@@ -315,6 +320,12 @@ body {
 
 
 @media (max-width: 410px) {
+
+	.top-h2 {
+		margin-top: 1.2em;
+	}
+
+
 	#container {
 		margin: 0.4em;
 
