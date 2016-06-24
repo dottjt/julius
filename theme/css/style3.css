@@ -76,7 +76,7 @@ h2 {
 .mid-h2 {
 	width: 100%;
 	margin-top: 80vh;
-	margin-bottom: 50vh;
+	margin-bottom: 90vh;
 	text-align: center;
 }
 
@@ -273,6 +273,13 @@ body {
 		font-size: 85%;
 		line-height: 1.4rem;
 	}
+
+	.projects {
+		overflow: hidden;
+		font-size: 2rem;
+		line-height: 3.6rem;
+	}
+
 
     .year {
     	font-size: 8rem;
