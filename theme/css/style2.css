@@ -59,6 +59,12 @@ table {
 */
 
 
+@media (max-width: 768px) {
+  body { 
+  	font-size: 70%;
+  }
+}
+
 body {
 	width: 100%;
 	font-family: helvetica;
