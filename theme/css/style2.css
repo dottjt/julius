@@ -50,11 +50,7 @@ table {
 
 /*
 
-
-
 	It begins 
-
-
 	
 */
 
@@ -261,6 +257,14 @@ a:hover {
 .y {
 	background-color: #FFFF00;
 	color: white;
+}
+
+
+
+@media (max-width: 768px) {
+  body { 
+  	font-size: 70%;
+  }
 }
 
 
