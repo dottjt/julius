@@ -428,9 +428,6 @@ body {
 		margin-top: 1.2em;
 	}
 
-	.intro p {
-		text-align: left;
-	}
 	#container {
 		margin: 0.4em;
 
@@ -439,4 +436,12 @@ body {
     .year {
 		font-size: 5rem;
     }
+}
+
+@media (max-width: 320px) {
+	.intro p {
+		font-size: 60%;
+		text-align: left;
+	}
+
 }
