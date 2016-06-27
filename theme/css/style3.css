@@ -116,8 +116,7 @@ body {
 .intro {
 	width: 40rem;
 	font-size: 1.5rem;
-	padding: 2rem;
-	margin: 0 auto;
+	padding: 10rem;
 }
 
 .main {
@@ -248,6 +247,19 @@ body {
 	color: white;
 }
 
+
+/****************************/
+/****************************/
+/*		 	ICONS  			*/
+/****************************/
+/****************************/
+
+
+.medium {
+	height: 40px;
+	width: 40px;
+}
+
 /****************************/
 /****************************/
 /*		 	MEDIA  			*/
@@ -257,7 +269,7 @@ body {
 
 @media (max-width: 768px) {
 
-	.main-side, .main, #container, .intro, .tldr, .intro p { 
+	.main-side, .main, #container, .tldr, .intro p { 
 		padding: 18px;
 	}
 	
@@ -268,9 +280,8 @@ body {
 	.intro, .tldr{
 		width: 80vw;
 	}
-
 	.intro {
-		margin-bottom: 25rem;
+		padding: 12px;
 	}
 
 	.intro p {

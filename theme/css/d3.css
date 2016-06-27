@@ -1,0 +1,14 @@
+div.bar {
+    display: inline-block;
+    width: 20px;
+    height: 75px;   /* We'll override this later */
+    background-color: teal;
+    margin-right: 2px;
+}
+
+var page = {
+	id : 12,
+	top : 245,
+	left : 24
+	state: true
+}
