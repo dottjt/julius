@@ -83,9 +83,7 @@ h2 {
 }
 
 a {
-	background-color: magenta;
-	text-decoration: none;
-	color: white;
+	color: magenta;
 }
 
 a:hover {
@@ -276,6 +274,11 @@ body {
 	color: white;
 }
 
+.gr {
+	color: #22FF8D;
+}
+
+
 .pur {
 	background-color: #8C2CFF;
 	color: white;
@@ -341,9 +344,21 @@ body {
 /****************************/
 
 
+@media (max-width: 1000px) {
+
+	.intro, .tldr{
+		width: 40rem;
+	}
+	.intro {
+		padding: 12px;
+	}
+
+
+}
+
 @media (max-width: 768px) {
 
-	.main-side, .main, #container, .tldr, .intro p { 
+	.main-side, .main, #container, .tldr, .intro { 
 		padding: 18px;
 	}
 	
@@ -377,9 +392,12 @@ body {
 	}
 
 	#container {
+		margin: 1.4em;
+	}
 
-	margin: 1.4em;
-	
+	.aln {
+		width: 80%;
+
 	}
 
 	.top-h2 {
