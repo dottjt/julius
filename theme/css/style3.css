@@ -7,8 +7,7 @@ html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
+small, strike, strong, sub, sup, tt, var, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
@@ -96,7 +95,16 @@ a:hover {
 #candy {
 	margin-bottom: 1em;
 	margin-top: 1em;
-	font-size: 5em;
+	font-size: 8em;
+	text-align: center;
+}
+
+.candy-blue {
+	color:#2094FF;
+}
+
+.candy-orange {
+	color: #FF9C44;
 }
 
 /****************************/
@@ -188,12 +196,22 @@ body {
 	letter-spacing: 0.02em;
 }
 #kate {
+	width: 80%;
+	font-size: 1.2rem;
 	padding-top: 0;
 	margin-bottom: 8em;
 }
 
+.aln {
+	width: 40%;
+	vertical-align: top;
+	display: inline-block;
+}
+
+
 #kate p {
 	text-align: left;
+	font-size: 1.2rem;
 
 }
 
@@ -201,6 +219,11 @@ body {
 	line-height: 2rem;
 	padding-bottom: 1.2rem;
 
+}
+
+.now {
+	margin-bottom: 4em;
+	text-align: center;
 }
 
 
