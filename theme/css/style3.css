@@ -332,9 +332,13 @@ body {
   transition: .25s ease-in-out;
 }
 
+.tim {
+	clear: both;
+}
 
-
-
+.last-year {
+	margin-top: 3rem;
+}
 
 
 /****************************/
