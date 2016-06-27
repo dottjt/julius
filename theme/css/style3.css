@@ -428,7 +428,9 @@ body {
 		margin-top: 1.2em;
 	}
 
-
+	.intro p {
+		text-align: left;
+	}
 	#container {
 		margin: 0.4em;
 
