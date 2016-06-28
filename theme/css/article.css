@@ -58,32 +58,28 @@ BEGIN
 
 */
 
-body {
-	background-color: blue;
-}
-
-
 
 #main_container {
-	width: 20em;
+	width: 100%;
 }
 
-p {
-	width: 10em;
+#text_container p {
+	padding: 1rem;
+	line-height: 1.8rem;
+	font-size: 1.3rem;
 }
 
 body {
 	font-family: helvetica, arial;
-	font-size: 50px;
 }
 
 #text_container {
 	width: 40em;
-	margin: 0 auto;
+	margin-left: 2rem;	
 	font-family: helvetica, arial;
-	font-size: 50px;
 }
 
 ul {
+	padding: 40px;
 	text-decoration: none;
 }
