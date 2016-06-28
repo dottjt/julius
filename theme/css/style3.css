@@ -1,0 +1,453 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 16px;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+
+}
+
+/*
+
+	It begins 
+	
+*/
+
+
+/****************************/
+/****************************/
+/*		 BEGINNING  	    */
+/****************************/
+/****************************/
+
+h2 {
+	padding-bottom: 3rem;
+	letter-spacing: 0.1rem;
+	padding-left: 2rem;
+	width: 80%;
+	font-size: 2.5rem;
+	line-height: 3.5rem
+}
+
+.top-h2 {
+	margin-top: 3em;
+}
+
+.mid-h2 {
+	margin-top: 80vh;
+	margin-bottom: 90vh;
+	text-align: center;
+}
+
+.projects {
+	line-height: 2em;
+}
+
+a {
+	color: magenta;
+}
+
+a:hover {
+	background-color: white;
+}
+
+#candy {
+	margin-bottom: 1em;
+	margin-top: 1em;
+	font-size: 8em;
+	text-align: center;
+}
+
+.candy-blue {
+	color:#2094FF;
+}
+
+.candy-orange {
+	color: #FF9C44;
+}
+
+/****************************/
+/****************************/
+/*		 MAIN ELEMENTS  	*/
+/****************************/
+/****************************/
+
+
+body {
+	width: 100%;
+	font-family: helvetica;
+	font-size: 16px;
+}
+
+#container {
+	padding: 1.2rem;
+	margin: 2.8em;
+	border: 1px solid #FF73DB;
+}
+
+.intro {
+	width: 40rem;
+	font-size: 1.5rem;
+	padding: 10rem;
+	padding-bottom: 1rem;
+
+}
+
+.main {
+	padding: 2rem;
+	width: 40rem;	
+	float: left;
+}
+
+.main-side {
+	float: left;
+	padding: 2rem 0 2rem 2rem;
+	width: 20rem;
+}
+
+.boxes {
+	font-size: 1.2rem;
+	width: 90vw;
+	font-family: arial;
+}
+
+
+.year {
+	font-size: 10rem;
+	text-align: center;
+	font-family: georgia;
+	clear: both;
+	margin-bottom: 0.2em;
+}
+
+
+/****************************/
+/****************************/
+/*		    LISTS         	*/
+/****************************/
+/****************************/
+
+
+.tldr {
+	width: 30rem;
+	margin: 0 auto;
+	padding: 2rem;
+}
+
+.tldr li {
+	padding-bottom: 1rem;
+	line-height: 1.4rem;
+
+}
+
+
+/****************************/
+/****************************/
+/*		 MAIN TEXT       	*/
+/****************************/
+/****************************/
+
+
+.intro p {
+	line-height: 2.38rem;
+	padding: 0.8em;
+	text-align: justify;
+	letter-spacing: 0.02em;
+}
+#kate {
+	width: 80%;
+	font-size: 1.2rem;
+	padding-top: 0;
+	margin-bottom: 8em;
+}
+
+.aln {
+	width: 40%;
+	vertical-align: top;
+	display: inline-block;
+}
+
+
+#kate p {
+	text-align: left;
+	font-size: 1.2rem;
+
+}
+
+.main p {
+	line-height: 2rem;
+	padding-bottom: 1.2rem;
+
+}
+
+.now {
+	margin-bottom: 4em;
+	text-align: center;
+}
+
+
+/****************************/
+/****************************/
+/*	    PORTFOLIO TITLE  	*/
+/****************************/
+/****************************/
+
+/*
+.main-title {
+	margin-top: 10rem;
+	font-size: 12rem;
+	text-align: center;	
+	line-height: 20rem;
+}
+
+
+*/
+
+/****************************/
+/****************************/
+/*		 	FLURO  			*/
+/****************************/
+/****************************/
+
+
+.b {
+	background-color: #00FFFF;
+	color: white;
+}
+
+.o {
+	background-color: #FF7F00;
+	color: white;
+}
+
+.r {
+	background-color: red;
+	color: white;
+}
+
+.p {
+	background-color: #FF51A2;
+	color: white;
+}
+
+.g {
+	background-color: #22FF8D;
+	color: white;
+}
+
+.gr {
+	color: #22FF8D;
+}
+
+
+.pur {
+	background-color: #8C2CFF;
+	color: white;
+}
+
+.y {
+	background-color: #F2F314;
+	color: white;
+}
+
+.l:hover {
+	background-color: #6D6C77;
+	opacity: 0.5;
+}
+/****************************/
+/****************************/
+/*		 	ICONS  			*/
+/****************************/
+/****************************/
+
+
+.medium {
+	height: 40px;
+	width: 40px;
+}
+
+.youtube, .tumblr, .podcast {
+	height: 25px;
+	width: 25px;	
+	margin-right: 10px;
+	}
+
+
+.hamburger {
+	position: relative;
+	float: right;
+	border: solid 1px;
+	width: 30px;
+	height: 30px;
+
+}
+
+.line {
+	border: solid 1px;
+	margin-bottom: 6px;
+	width: 30px;
+	height: 2px;
+	background-color: black;
+	border-radius: 3px;
+}
+
+.line1:hover {
+  transform: rotate(0deg);
+  transition: .25s ease-in-out;
+}
+
+.tim {
+	clear: both;
+}
+
+.last-year {
+	margin-top: 3rem;
+}
+
+
+/****************************/
+/****************************/
+/*		 	MEDIA  			*/
+/****************************/
+/****************************/
+
+
+@media (max-width: 1000px) {
+
+	.intro, .tldr{
+		width: 40rem;
+	}
+	.intro {
+		padding: 12px;
+	}
+
+
+}
+
+@media (max-width: 768px) {
+
+	.main-side, .main, #container, .tldr, .intro { 
+		padding: 18px;
+	}
+	
+	.main, .main-side, .boxes-main {
+		width: 90%;
+	}
+
+	.intro, .tldr{
+		width: 80vw;
+	}
+	.intro {
+		padding: 12px;
+	}
+
+	.intro p {
+		padding-top: 0.8em;
+		padding-bottom: 0.8em;
+		font-size: 70%;
+		line-height: 1.66rem;
+	}
+
+	.main p {
+		font-size: 85%;
+		line-height: 1.4rem;
+	}
+
+	.projects {
+		overflow: hidden;
+		font-size: 2rem;
+		line-height: 3.6rem;
+	}
+
+	#container {
+		margin: 1.4em;
+	}
+
+	.aln {
+		width: 80%;
+	}
+
+	.top-h2 {
+		margin-top: 2em;
+	}
+
+
+    .year {
+    	font-size: 8rem;
+    }
+
+    h2 {
+    	width: 90vw;
+    	padding-left: 0;
+    	font-size: 1.8rem;
+		line-height: 2.52rem;
+    }
+
+    .mid-h2 {
+    	font-size: 1.6rem;
+    }
+}
+
+
+@media (max-width: 410px) {
+
+	.top-h2 {
+		margin-top: 1.2em;
+	}
+
+	#container {
+		margin: 0.4em;
+
+	}
+
+    .year {
+		font-size: 5rem;
+    }
+}
+
+@media (max-width: 320px) {
+	.intro p {
+		font-size: 60%;
+		text-align: left;
+	}
+
+}
