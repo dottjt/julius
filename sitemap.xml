@@ -5,56 +5,84 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://juliusreade.me/</loc>
-<lastmod>2016-06-27T17:49:14-00:00</lastmod>
+<lastmod>2016-06-28T10:49:17-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://juliusreade.me/archives.html</loc>
-<lastmod>2016-06-27T17:49:14-00:00</lastmod>
+<lastmod>2016-06-28T10:49:17-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://juliusreade.me/tags.html</loc>
-<lastmod>2016-06-27T17:49:14-00:00</lastmod>
+<lastmod>2016-06-28T10:49:17-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://juliusreade.me/categories.html</loc>
-<lastmod>2016-06-27T17:49:14-00:00</lastmod>
+<lastmod>2016-06-28T10:49:17-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://juliusreade.me/test.html</loc>
-<lastmod>2016-06-27T17:49:14-00:00</lastmod>
+<lastmod>2016-06-28T10:49:17-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://juliusreade.me/about.html</loc>
-<lastmod>2016-06-27T17:49:14-00:00</lastmod>
+<lastmod>2016-06-28T10:49:17-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://juliusreade.me/portfolio.html</loc>
-<lastmod>2016-06-27T17:49:14-00:00</lastmod>
+<lastmod>2016-06-28T10:49:17-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://juliusreade.me/timeline.html</loc>
-<lastmod>2016-06-27T17:49:14-00:00</lastmod>
+<lastmod>2016-06-28T10:49:17-00:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://juliusreade.me/adelaidesucks</loc>
+<lastmod>2016-06-28T09:10:00+10:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://juliusreade.me/category/archive.html</loc>
+<lastmod>2016-06-28T09:10:00+09:40</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://juliusreade.me/tag/julius-reade.html</loc>
+<lastmod>2016-06-28T09:10:00+09:40</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://juliusreade.me/author/julius-reade.html</loc>
+<lastmod>2016-06-28T09:10:00+09:40</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>

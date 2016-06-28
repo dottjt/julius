@@ -285,11 +285,14 @@ body {
 }
 
 .y {
-	background-color: #FFFF00;
+	background-color: #F2F314;
 	color: white;
 }
 
-
+.l:hover {
+	background-color: #6D6C77;
+	opacity: 0.5;
+}
 /****************************/
 /****************************/
 /*		 	ICONS  			*/
@@ -401,7 +404,6 @@ body {
 
 	.aln {
 		width: 80%;
-
 	}
 
 	.top-h2 {
