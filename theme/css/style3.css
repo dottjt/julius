@@ -129,10 +129,6 @@ body {
 	margin-top: 4rem;
 }
 
-.first-intro p {
-	line-height: 3rem;
-
-}
 
 .intro {
 	width: 40rem;
@@ -205,6 +201,12 @@ body {
 	text-align: justify;
 	letter-spacing: 0.02em;
 }
+
+.first-intro p {
+	line-height: 3.35rem;
+
+}
+
 #kate {
 	width: 80%;
 	font-size: 1.2rem;
@@ -227,9 +229,9 @@ body {
 
 .main p {
 	font-size: 1.2rem;
-	line-height: 1.8rem;
+	line-height: 2rem;
 	padding-bottom: 1.2rem;
-font-family: 'Amethysta', serif;
+	font-family: times;
 }
 
 .now {
@@ -376,6 +378,11 @@ font-family: 'Amethysta', serif;
 
 .last-year {
 	margin-top: 3rem;
+}
+
+.times {
+	font-family: times;
+	font-size: 1.6rem;
 }
 
 
