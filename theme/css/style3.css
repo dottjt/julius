@@ -321,8 +321,8 @@ body {
 }
 
 .y {
-	background-color: #F2F314;
-	color: white;
+	background-color: #FFFD00;
+	color: #504E52;
 	transition: background-color 0.35s ease-out, opacity 0.35s ease-out;	
 }
 
